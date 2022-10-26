@@ -11,7 +11,7 @@ on:
 jobs:
   say_hello_linux:
     name: Say Hello from Linux Self-Hosted Runner
-    runs-on: local-runner-demo
+    runs-on: LocalRunner
     steps:
       - name: Say hello from self-hosted linux runner
         run: |
@@ -19,7 +19,7 @@ jobs:
 
   say_hello_windows:
     name: Say Hello from Windows Self-Hosted Runner
-    runs-on: LAPTOP-PNUDG1OP
+    runs-on: LocalRunner
     needs: say_hello_linux
     steps:
       - name: Say hello from self-hosted windows runner
