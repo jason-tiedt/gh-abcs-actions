@@ -5,7 +5,7 @@
 
 ### Hands-on Labs Setup
 - [ ] [Lab Setup](/labs/setup.md)
-
+-
 ### Module 1: Introduction to GitHub Actions
 - Example: [github-actions-demo.yml](/.github/workflows/github-actions-demo.yml)
 - Example: [greet-everyone.yml](/.github/workflows/greet-everyone.yml)
